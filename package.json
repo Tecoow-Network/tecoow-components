@@ -1,5 +1,5 @@
 {
-  "name": "tecoow-components",
+  "name": "@Tecoow-Network/tecoow-components",
   "version": "0.0.1",
   "description": "React component library mantained and reccomanded by Tecoow.",
   "scripts": {
@@ -24,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Tecoow-Network"
+  }
 }
