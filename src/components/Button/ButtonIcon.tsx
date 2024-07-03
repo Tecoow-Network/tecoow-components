@@ -1,7 +1,11 @@
 import React from 'react';
 
-interface ButtonProps {
+interface ButtonIconProps {
     label: string;
+    iconSrc: string;
+    iconAlt: string;
+    iconStyle?: React.CSSProperties;
+    iconClassName?: string;
     onClick?: () => void;
     style?: React.CSSProperties;
     className?: string;
@@ -13,10 +17,8 @@ interface ButtonProps {
     autoFocus?: boolean;
     tabIndex?: number;
     dataTestId?: string;
-
 }
-
-const Button = (props: ButtonProps) => {
+const ButtonIcon = (props: ButtonIconProps) => {
     return (
         <button
             onClick={props.onClick}
@@ -31,9 +33,15 @@ const Button = (props: ButtonProps) => {
             tabIndex={props.tabIndex}
             data-testid={props.dataTestId}
         >
-            {props.label}
+            <img 
+                src={props.iconSrc} 
+                alt={props.iconAlt} 
+                style={props.iconStyle} 
+                className={props.iconClassName}
+            />
+            <span>{props.label}</span>
         </button>
     );
 };
 
-export default Button;
+export default ButtonIcon;
