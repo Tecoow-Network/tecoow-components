@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface InputProps {
+export interface InputProps {
     type?: 'text' | 'password' | 'email' | 'number' | 'tel' | 'url' | 'search' | 'date' | 'datetime-local' | 'month' | 'time' | 'week';
     value: string;
     onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
