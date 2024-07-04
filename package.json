@@ -1,6 +1,6 @@
 {
   "name": "@Tecoow-Network/tecoow-components",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "React component library mantained and reccomanded by Tecoow.",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
