@@ -24,3 +24,6 @@ export { DropDownMultiple as DropDownMultiple} from './DropDown';
 
 // Text Area Component
 export { TextArea as TextArea} from './TextArea';
+
+// Label Component
+export { Label as Label} from './Label';
