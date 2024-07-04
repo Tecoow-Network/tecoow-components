@@ -1,7 +1,7 @@
 import React from 'react';
 
 export interface InputProps {
-    type?: 'text' | 'password' | 'email' | 'number' | 'tel' | 'url' | 'search' | 'date' | 'datetime-local' | 'month' | 'time' | 'week';
+    type?: 'text' | 'radio' | 'checkbox' | 'password' | 'email' | 'number' | 'tel' | 'url' | 'search' | 'date' | 'datetime-local' | 'month' | 'time' | 'week';
     value: string;
     onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
     placeholder?: string;
