@@ -18,5 +18,9 @@ export { InputText as InputText} from './Input';
 export { RadioButton as RadioButton} from './RadioButton';
 export { RadioButtonGroup as RadioButtonGroup} from './RadioButton';
 
+// Drop Down Components
+export { DropDown as DropDown} from './DropDown';
+export { DropDownMultiple as DropDownMultiple} from './DropDown';
+
 // Text Area Component
 export { TextArea as TextArea} from './TextArea';
