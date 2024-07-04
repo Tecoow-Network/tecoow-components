@@ -1,7 +1,7 @@
 import React from 'react';
 import Input, { InputProps } from '../Input/Input';
 
-interface CheckBoxProps extends Omit<InputProps, 'type'> {
+export interface CheckBoxProps extends Omit<InputProps, 'type'> {
     type?: 'checkbox';
     label?: string;
 }
