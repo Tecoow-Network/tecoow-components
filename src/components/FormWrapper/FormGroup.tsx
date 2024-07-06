@@ -13,7 +13,7 @@ const FormGroup = (props: FormGroupProps) => {
   return (
     <div
         id={props.id}
-        className={`${props.inline ? 'form-item-inline' : ''} ${props.className}`}
+        className={`${props.inline ? styles.formItemInline : ''} ${props.className}`}
         style={props.style}
   >
     {props.children}
