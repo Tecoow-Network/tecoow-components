@@ -9,7 +9,7 @@ interface FormWrapperProps {
 
 const FormWrapper = (props: FormWrapperProps) => {
   return (
-    <div id= {props.id} className={props.className} style={props.style}>
+    <div id={props.id} className={props.className} style={props.style}>
       {props.children}
     </div>
   );
