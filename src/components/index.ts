@@ -24,3 +24,6 @@ export { DropDownMultiple as DropDownMultiple} from './DropDown';
 
 // Text Area Component
 export { TextArea as TextArea} from './TextArea';
+
+// Form Component
+export { FormWrapper as FormWrapper} from './FormWrapper';
